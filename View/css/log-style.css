@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "lobster";
+    src: url("../fonts/Lobster-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: 'ArchivoNarrow';
+    src: url("../fonts/ArchivoNarrow-Italic-VariableFont_wght.ttf");
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_login{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 100vh;
+
+}
+.container_banner{
+    background-image: url("../img/pokemon-wallpapers-22.jpg");
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.title_s{
+  text-align: center;
+  color: #907de4;
+  font-family: "lobster";
+  width: 100%;
+  font-size: 35px;
+  margin: 0px;
+  
+}
+
+
+
+h2{
+    text-align: center;
+    margin-top: 25px 0px;
+    width: 100%;
+    font-size:25 ;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+.form-label{
+    margin-bottom: 10px;
+    font-family: "ArchivoNarrow";
+}
+.container-inputs{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 5px double #907de4;
+}
+.input-100{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 0.5px solid #0066ff; 
+    padding: 15px 0;
+}
+.restore-pass{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 25px;
+
+    color: #907de4;
+}
+.btn-start{
+    background: #907de4;;
+    color: white;
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.35s;
+    
+}
+.btn-start:hover{
+    background: #78a75e;
+    
+}
+.form__link{
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    margin: 20px;
+    color: darkgray;
+}
+.form__link a{
+    color: black;
+}
+
+@media screen and (max-width:768px){
+    .container_login{
+
+        grid-template-columns: 0% 100%;;
+    
+    }
+    .title_s{
+        font-size: 12px;
+        visibility: hidden;
+    }
+
+    h2{
+        margin-top: 0px;
+        font-size: 25px;
+        font-family: "lobster";
+
+    }
+    .input-100{
+        font-size: 12px;
+        padding: 10px 0;
+    }
+    .btn-start{
+        padding: 7px 0;
+    }
+    .encabezado{
+        visibility: hidden;
+    }
+
+
+
+
+}
+
+

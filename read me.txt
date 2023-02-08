@@ -1,0 +1,14 @@
+POKEDEX-POKEMON API
+
+Debes iniciar sesión o registrarte para poder acceder a la pagina principal 
+La pagina se conecta a una base de datos SQL mediante el sistema de gestión de bases de datos XAMPP en su versión V3.3.0 
+El nombre de la base de datos con el que está configurado la página es pokemons
+Solo contine la tabla usuario con las columnas
+ID 	   	      |  int
+U_NAME                |  varchar
+U_LASTNAME	      |  varchar
+U_NAMEUSER	      |  varchar
+U_EMAIL	      |  varchar
+U_PASSWOR        |  varchar
+
+Adjunto script de la base de datos: pokemons.sql

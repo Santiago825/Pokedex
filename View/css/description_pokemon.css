@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "lobster";
+    src: url("../fonts/Lobster-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: 'ArchivoNarrow';
+    src: url("../fonts/ArchivoNarrow-Italic-VariableFont_wght.ttf");
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_pokemon{
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 80px;
+    box-shadow: 16px 14px 35px -4px rgba(219,208,219,1);
+
+    border-radius: 30px;
+   
+
+}
+.contaner_identificacion_pokemon{
+    margin: 50px;
+}
+.container_caracteristicas_pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.name_pokemon{
+    font-family: "lobster";
+    font-size: 60px;    
+
+}
+.img_pokemon{
+    width: 500px;
+}
+h3{
+    font-family: "lobster";
+    font-size: 50px; 
+}
+.datos_tipo{
+    font-family: "ArchivoNarrow";
+    font-size: 40px; 
+    display: flex;
+    justify-content: center;
+}
+.cointainer_habilitys_all{
+    background-color: whitesmoke;
+    box-shadow: 16px 14px 35px -4px rgba(219,208,219,1);
+
+    
+}
+.CONTAINER_HABILITY{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    font-family: "ArchivoNarrow";
+    font-weight: bold;
+
+    
+}
+.btn_volver{
+    background: rgb(0, 255, 191);
+    display: flex;
+    width: 30%;
+    border-radius: 20px;
+    margin: auto;
+    padding: 0px 40px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;    
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 35px;
+
+}
